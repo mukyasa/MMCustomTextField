@@ -14,15 +14,7 @@
 		8B5DEA71203A94510073665C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5DEA6F203A94510073665C /* LaunchScreen.storyboard */; };
 		8B5DEA7C203A94510073665C /* MMCustomTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DEA7B203A94510073665C /* MMCustomTextFieldTests.swift */; };
 		8B5DEA87203A94510073665C /* MMCustomTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DEA86203A94510073665C /* MMCustomTextFieldUITests.swift */; };
-		8B5DEA95203A94830073665C /* PTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DEA94203A94830073665C /* PTTextField.swift */; };
 		8B5DEA97203A95170073665C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DEA96203A95170073665C /* CustomTextField.swift */; };
-		8B7D500A203C6DF30014B62F /* AddTextField.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B7D5003203C6DF30014B62F /* AddTextField.gif */; };
-		8B7D500B203C6DF30014B62F /* AppCreate.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B7D5004203C6DF30014B62F /* AppCreate.png */; };
-		8B7D500C203C6DF30014B62F /* Border.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B7D5005203C6DF30014B62F /* Border.gif */; };
-		8B7D500D203C6DF30014B62F /* Final Demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B7D5006203C6DF30014B62F /* Final Demo.gif */; };
-		8B7D500E203C6DF30014B62F /* Padding.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B7D5007203C6DF30014B62F /* Padding.gif */; };
-		8B7D500F203C6DF30014B62F /* Placeholder.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B7D5008203C6DF30014B62F /* Placeholder.gif */; };
-		8B7D5010203C6DF30014B62F /* StepOne.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B7D5009203C6DF30014B62F /* StepOne.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,15 +48,7 @@
 		8B5DEA82203A94510073665C /* MMCustomTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMCustomTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5DEA86203A94510073665C /* MMCustomTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMCustomTextFieldUITests.swift; sourceTree = "<group>"; };
 		8B5DEA88203A94510073665C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B5DEA94203A94830073665C /* PTTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTTextField.swift; sourceTree = "<group>"; };
 		8B5DEA96203A95170073665C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		8B7D5003203C6DF30014B62F /* AddTextField.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AddTextField.gif; sourceTree = "<group>"; };
-		8B7D5004203C6DF30014B62F /* AppCreate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppCreate.png; sourceTree = "<group>"; };
-		8B7D5005203C6DF30014B62F /* Border.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Border.gif; sourceTree = "<group>"; };
-		8B7D5006203C6DF30014B62F /* Final Demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Final Demo.gif"; sourceTree = "<group>"; };
-		8B7D5007203C6DF30014B62F /* Padding.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Padding.gif; sourceTree = "<group>"; };
-		8B7D5008203C6DF30014B62F /* Placeholder.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Placeholder.gif; sourceTree = "<group>"; };
-		8B7D5009203C6DF30014B62F /* StepOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StepOne.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,15 +99,13 @@
 		8B5DEA65203A94510073665C /* MMCustomTextField */ = {
 			isa = PBXGroup;
 			children = (
-				8B7D5002203C6DF30014B62F /* Helper Images */,
-				8B5DEA94203A94830073665C /* PTTextField.swift */,
 				8B5DEA66203A94510073665C /* AppDelegate.swift */,
+				8B5DEA96203A95170073665C /* CustomTextField.swift */,
 				8B5DEA68203A94510073665C /* ViewController.swift */,
 				8B5DEA6A203A94510073665C /* Main.storyboard */,
 				8B5DEA6D203A94510073665C /* Assets.xcassets */,
 				8B5DEA6F203A94510073665C /* LaunchScreen.storyboard */,
 				8B5DEA72203A94510073665C /* Info.plist */,
-				8B5DEA96203A95170073665C /* CustomTextField.swift */,
 			);
 			path = MMCustomTextField;
 			sourceTree = "<group>";
@@ -144,20 +126,6 @@
 				8B5DEA88203A94510073665C /* Info.plist */,
 			);
 			path = MMCustomTextFieldUITests;
-			sourceTree = "<group>";
-		};
-		8B7D5002203C6DF30014B62F /* Helper Images */ = {
-			isa = PBXGroup;
-			children = (
-				8B7D5003203C6DF30014B62F /* AddTextField.gif */,
-				8B7D5004203C6DF30014B62F /* AppCreate.png */,
-				8B7D5005203C6DF30014B62F /* Border.gif */,
-				8B7D5006203C6DF30014B62F /* Final Demo.gif */,
-				8B7D5007203C6DF30014B62F /* Padding.gif */,
-				8B7D5008203C6DF30014B62F /* Placeholder.gif */,
-				8B7D5009203C6DF30014B62F /* StepOne.png */,
-			);
-			path = "Helper Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,15 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B7D5010203C6DF30014B62F /* StepOne.png in Resources */,
 				8B5DEA71203A94510073665C /* LaunchScreen.storyboard in Resources */,
-				8B7D500F203C6DF30014B62F /* Placeholder.gif in Resources */,
-				8B7D500D203C6DF30014B62F /* Final Demo.gif in Resources */,
 				8B5DEA6E203A94510073665C /* Assets.xcassets in Resources */,
-				8B7D500A203C6DF30014B62F /* AddTextField.gif in Resources */,
-				8B7D500B203C6DF30014B62F /* AppCreate.png in Resources */,
-				8B7D500C203C6DF30014B62F /* Border.gif in Resources */,
-				8B7D500E203C6DF30014B62F /* Padding.gif in Resources */,
 				8B5DEA6C203A94510073665C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,7 +264,6 @@
 			files = (
 				8B5DEA97203A95170073665C /* CustomTextField.swift in Sources */,
 				8B5DEA69203A94510073665C /* ViewController.swift in Sources */,
-				8B5DEA95203A94830073665C /* PTTextField.swift in Sources */,
 				8B5DEA67203A94510073665C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
